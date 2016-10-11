@@ -5,6 +5,7 @@ Docker related files
 
 #1. Running ETL
 Build and Run the ETL container; Steps are as below;
+
 1. cd /etl
 2. docker build -t scsb-etl .
 3. docker run -i -t scsb-etl /bin/bash
